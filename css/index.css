@@ -1,0 +1,18 @@
+header{
+    background-image: url(../assets/img/portfolio/ben-Bj6ENZDMSDY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div #tech{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+} 
+div #ctn-tech{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;  
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le monde en noir &amp; blanc - Page de contact</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/nb.css">
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/menu.js"></script>
+</head>
+<body>
+      <header id="mainHeader">
+            <img src="/images/layout/nb_logo.svg" alt="Logo N&B" id="logoImg" />
+            <h1>Le monde en noir &amp; blanc</h1>
+            <nav id="mainNav">
+                <h1 class="accessibility">Menu principal</h1>
+                <p class="accessibility"><a href="#pageContent" title="Accéder directement au contenue principal de cette page "></a></p>
+                <ul>
+                    <li><a href="index.html" title="Vers la page d'acceuil du site le monde en noir et blanc">Accueil</a></li>
+                    <li><a href="galerie.html" title="Vers la page galleries">Galeries</a></li>
+                    <li><a href="contact.html" title="Vers la page contact">Contact</a></li>
+                    <li><a href="about.html" title="Vers la page a propos">À propos</a></li>
+                    <li><a href="blog.html" title="Vers la page blog">Blog</a></li>
+                </ul>
+            </nav>
+            <button id="menuToggle"><img src="/images/layout/hamburger.svg" alt="Ouvrir / Fermer le menu" /></button>
+        </header><!--Ici se termine le #mainHeader-->
+         <section id="pageContent" class="oneCol contact">
+            <main>
+                <h1>Contactez-nous</h1>
+                <p>Merci de completer le formulaire suivant pour nous contacter. Tous les champ sont requis</p>
+                <form id="frmContact" action="merci.html">
+                    <div>
+                        <div>
+                            <label for="fName">Prénom</label>
+                            <input type="text" name="fName" id="fName" required autofocus tabindex="1" placeholder="Votre prénom" title="Entrer votre prénom">
+                        </div>
+                        <div>
+                            <label for="lName">Nom de famille</label>
+                            <input type="text" name="lName" id="lName" required tabindex="2" placeholder="Votre nom" title="Entrer votre nom">
+                        </div>
+                        <div>
+                            <label for="email">Votre email</label>
+                            <input type="email" name="email" id="email" required tabindex="3" placeholder="Votre email" title="Entrer votre email">
+                        </div>
+
+                    </div>
+                    <div>
+                        <div>
+                            <label for="message">Votre message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" required tabindex="4" placeholder="Votre message" title="Entrer votre message"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </main>
+        </section><!--Ici se termine le #pageContent-->
+        <footer id="mainFooter">
+            <p>&copy; Copyright Sofiane Dahamna- 2023</p>
+        </footer><!--Ici se termine le #mainFooter-->
+</body>
+</html>
