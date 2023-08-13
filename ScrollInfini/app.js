@@ -5,7 +5,7 @@ let pageIndex = 1;
 
 async function fetchData(){
   try {
-    const response = await fetch(`https://api.unsplash.com/search/photos?page=${pageIndex}&per_page=30&query=${searchQuery}&client_id=TccZKDXp9rzfJUM7avYkdoikF-6NFDgdYhvZF5HiunQ`)
+    const response = await fetch(`https://api.unsplash.com/search/photos?page=${pageIndex}&per_page=30&query=${searchQuery}&client_id=p3cwpn8yHvq_vlJ9DkuHBamSiu4TMKZEl9MXsFjfoCo`)
   
     if(!response.ok) {
       throw new Error(`Erreur: ${response.status}`)
