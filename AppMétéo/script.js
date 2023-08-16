@@ -4,7 +4,7 @@ const errorInformation = document.querySelector(".error-information");
 async function getWeatherData(){
     try {
         //console.log(`ligne 09`);
-        const response = await fetch(`http://api.airvisual.com/v2/nearest_city?key=4e111a11-5eae-471b-8a9f-64d5dec942bb`).catch(error => {
+        const response = await fetch(`https://api.airvisual.com/v2/nearest_city?key=4e111a11-5eae-471b-8a9f-64d5dec942bb`).catch(error => {
             throw new Error("Problème de connexion internet")
         });
 
